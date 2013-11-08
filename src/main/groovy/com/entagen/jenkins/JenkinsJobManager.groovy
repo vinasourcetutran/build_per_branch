@@ -124,7 +124,7 @@ class JenkinsJobManager {
     public void addMissingViews(List<BranchView> missingViews) {
         println "Missing views: $missingViews"
         for (BranchView missingView in missingViews) {
-            jenkinsApi.createViewForBranch(missingView, this.nestedView)
+            
         }
     }
 
